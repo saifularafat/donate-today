@@ -276,7 +276,8 @@ input{
     color: #AA9F9F;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    border-radius: 8px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #AA9F9F;
 }
 
 .mail{
@@ -285,8 +286,8 @@ input{
     transform: translateY(-50%);
     /* border: 1px solid #000; */
     padding-left: 28px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 19px;
+    padding-bottom: 19px;
     padding-right: 80px;
 }
 
@@ -299,13 +300,13 @@ input{
     font-size: 16px;
     color: #FFFFFF;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
     background-color: #FF5959;
     letter-spacing: 0.5px;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     padding-left: 28px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 21px;
+    padding-bottom: 21px;
     padding-right: 80px;
 }
 

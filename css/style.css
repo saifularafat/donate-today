@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* goluba title aNd description now */
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+section{
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+a{
+    text-decoration: none;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #FF5959;
+    border-radius: 5px;
+    border: 1px solid #FF5959;
+    padding: 16px 16px;
+    transition: .4s;
+}
+
+.btn:hover{
+    background: transparent;
+    color: #FF5959;
+}
+
+.parend{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.title{
+    color: #121212;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.description{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+/* banner_section style strat now */
+.banner_section{
+    width: 100%;
+    height: 669px;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('../images/Rectangle1.png');
+}
+
+.banner_section .caption{
+    text-align: center;
+    top: 50%;
+    position: relative;
+    max-width: 825px;
+    transform: translateY(-50%);
+    left: 20%;
+}
+
+.banner_section .banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.banner_section .banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+/* donate_section style strat now */
+.donate_section .main_column{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.donate-money{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.donate_section .flex_column{
+    background: #FAFAFA;
+    padding: 43px 23px;
+    border: 2px solid #FAFAFA;
+    border-radius: 5px;
+    transition: .4s ease;
+}
+
+.donate_section .flex_column:hover{
+    background: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.donate-sub-title{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+    border-bottom: 1px solid #b4b0b0;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.botton{
+    text-align: center;
+}
+
+/* donate_section style end now */
+
+/* donateplan_section style strat now */
+
+.donateplan_section .parend{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.donateplan_section .main_column{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.donateplan_section .flex_column1{
+    background: rgba(79, 157, 166, 0.1);
+    padding: 50px 10px 20px 12px;
+    border-radius: 8px;
+}
+
+.donateplan_section .flex_column{
+    background: rgba(255, 89, 89, 0.1);
+    padding: 50px 10px 20px 12px;
+    border-radius: 8px;
+}
+
+.donateplan_section .flex_column img,
+.donateplan_section .flex_column1 img,
+.donateplan_section .flex_column2 img{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.donateplan_section .flex_column2{
+    background: #FFF4D6;
+    padding: 50px 10px 20px 12px;
+    border-radius: 8px;
+}
+
+.donateplan_section .donateplan-title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: #121212;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-bottom: 16px;
+}
+
+.donateplan_section .donateplan-description{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    color: #707070;
+    padding-left: 22px;
+}
+/* donateplan_section style end now */
+
+    /* yourdonation section style strat now */
+.yourdonation .main_column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    column-gap: 60px;
+    row-gap: 60px;
+    /* padding-top: 12px;
+    padding-bottom: 12px; */
+    align-items: center;
+}
+
+.yourdonation .flex_column{
+    width: 100%;
+}
+
+.yourdonation .flex_column img{
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+}
+
+ .yourdonation .perand{
+    max-width: 490px;
+} 
+ .yourdonation-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+ .yourdonation-description{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    margin-bottom: 30px;
+} 
+
+ .yourdonation .donation-btn{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #FF5959;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    margin-top: 30px;
+    transition: .4s ease;
+}
+
+.donation-btn:hover{
+    background: transparent;
+    color: #FF5959;
+}
+   /* yourdonation section style end now */
+
+.form {
+    width: 809px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF4D6;
+    margin-top: 40px;
+    /* position: relative; */
+}
+input{
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+}
+
+.mail{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /* border: 1px solid #000; */
+    padding-left: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+}
+
+.from-btn {
+    position: relative;
+    top: 35%;
+    transform: translateY(-50%);
+    left: -3%;
+    line-height: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FF5959;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    padding-left: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 80px;
+}
+
+/* footer section style strat now */
+.footer-section{
+    Height: 177px;
+    background-color: #0B0D17;
+}
+
+.footer-section .parend{
+    text-align: center;
+    padding-top: 53px;
+}
+
+.footer-title{
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 24px
+}
+
+.footer-description{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
